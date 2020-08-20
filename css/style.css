@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo h3,
+#logo span {
+    /* float: right; */
+    display: inline;
+
+}
+#logo h3{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    padding: .5em;
+    place-items: center;
+}
+#logo h3 span{
+    font-size: 0.5em;
+    color: black;
+}
+#globe{
+    background-image: url(../img/globe.png);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+/* .cir1 {
+    text-align: right;
+    position: absolute;
+    background-color: ivory;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    place-items: center;
+    top: -30px;
+    z-index: 3;
+}
+
+.cir2 {
+    text-align: right;
+    place-items: right;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: -20px;
+} */
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#box {
+    text-align: center;
+    place-content: center;
+}
+
+.red {
+    text-align: center;
+    /* height: 10em;
+    width: 30em; */
+    background-color: red;
+    color: white;
+    padding: 30px;
+    margin: 0;
+
+}
+
+.grey {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 40px;
+    /* height: 0 em;
+    width: 30em; */
+}
+
+#mid {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wel,
+#lor {
+    text-align: center;
+}
+
+#wel h1 {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5px;
+}
+
+#wel h4 {
+    color: orange;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+}
+
+#sec {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.trd,
+.iso,
+.adv,
+.reg {
+    background-color: orange;
+    place-content: center;
+    height: 15rem;
+}
+
+.one,
+.two {
+    place-content: center;
+    padding: 10px;
+}
+
+#bos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic1 {
+    background-image: url(../img/pic1.png);
+    height: 15rem;
+    background-repeat: no-repeat;
+}
+
+.pic2 {
+    background-image: url(../img/pic2.png);
+    height: 15rem;
+    background-repeat: no-repeat;
+}
+
+.pic3 {
+    background-image: url(../img/pic3.png);
+    height: 15rem;
+    background-repeat: no-repeat;
+}
+
+.pic4 {
+    background-image: url(../img/pic4.png);
+    height: 15rem;
+    background-repeat: no-repeat;
+}
+
+#last {
+    background-color: #f1f1f1;
+}
+
+#footer {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+@media screen and (max-width: 728px) {
+    .img1 img {
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img1 img {
+        transform: scale(0.2);
+    }
+    #wel h1 {
+        font-size: 2rem;
+    }
+    
+    #wel h4 {
+        font-size: 2.5rem;
+    }
+}
